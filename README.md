@@ -16,6 +16,8 @@ GET  localhost:8000/api/findCep?cep=numerocepvalido
 
 GET localhost:8000/api/findCepName?cep_state=SIGLA&cep_city=CIDADE&cep_region=BAIRRO 
 
+POST localhost:8000/api/refreshToken
+
 # Requisitos:
 Composer >=2.0 , PHP 8.1 , MYSQL
 
